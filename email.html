@@ -5,30 +5,24 @@
     <style>
       * {
         font-weight: 400;
-        font-size: 13pt;
-        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-family: 'Google Sans', sans-serif;
       }
       strong {
         font-weight: 700;
       }
       .title-text {
-        font-size: 17pt;
+        font-size: 22px;
         font-family: 'Google Sans', sans-serif;
         font-weight: 700;
-        /* warna hijau */
-        /* color: #34A853; */
       }
       .header-text {
         line-height: 1.2;
-        margin-right: -0.75pt;
-        margin-top: 0pt;
-        margin-bottom: 0pt;
+        margin-right: -0.75px;
+        margin-top: 0px;
+        margin-bottom: 0px;
         padding-left: 0;
         padding-right: 0
-      }
-      .link {
-        /* warna putih */
-        color: #fafafa;
       }
       td {
         text-align: justify;
@@ -36,10 +30,10 @@
       }
       p {
         line-height: 1.8;
-        margin-top: 0pt;
-        margin-bottom: 0pt;
-        padding-left: 96px;
-        padding-right: 40px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 8%;
+        padding-right: 5%;
         /* warna putih */
         color: #fafafa;
       }
@@ -49,19 +43,14 @@
         font-weight: 700;
       }
       a {
-        /* warna putih */
-        color: #fafafa;
-        /* warna biru */
-        /* color: #4386F4; */
+        /* warna kuning */
+        color: #fbbc04;
         text-decoration: none;
         font-weight: 700;
       }
       button {
         padding: 10px 15px;
         border-radius: 8px;
-        /* warna biru */
-        /* background-color: #4386F4; */
-        /* warna hijau */
         background-color: #34A853;
         /* warna text inline */
         border: 2px solid #34A853;
@@ -71,13 +60,19 @@
         vertical-align: top;
         /* warna biru */
         background-color: #4386F4;
-        /* warna hijau */
-        /* background-color: #34A853; */
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding: 40px 0px;
       }
-      .pub-rel {
-        color: #EA4335;
+      @media screen and (max-width: 600px){
+        * {
+        font-weight: 400;
+        font-size: 17px;
+        font-family: 'Google Sans', sans-serif;
+      }
+      .title-text {
+        font-size: 22px;
+        font-family: 'Google Sans', sans-serif;
+        font-weight: 700;
+      }
       }
     </style>
   </head>
@@ -88,38 +83,52 @@
           <col style="width: 816px;" />
         </colgroup>
         <tbody>
-          <tr style="height: 213pt;">
+          <tr style="height: 150pt;padding-bottom: 0;margin-bottom: 0;">
             <td style="vertical-align: top;">
               <p class="header-text">
                 <span style="font-size: 11pt; font-family: 'Google Sans', sans-serif; color: #fafafa;">
                   <span style="border: none;">
-                    <img src="https://i.imgur.com/sW3Mlqc.png" width="815" height="277.01963059751074" />
+                    <img src="https://i.imgur.com/E5CmDiV.jpg" width="816" />
                   </span>
                 </span>
               </p>
             </td>
           </tr>
-          <tr>
+          <tr style="padding-top: 0;margin-top: 0;">
             <td class="mail-body">
-              <p class="title-text">Dear <?= name ?>,</p>
-              <br />
-              <p><span class="title-text">Congratulations!</span> You are now officially a Google Developer Student Clubs Member at GDSC Chapter UPI!! &#10024;</p>
-              <p>You are joining an amazing community that connect all students to learn, share ideas, and explore technologies to solve day-to-day problem supported by <strong>Google</strong>.</p>
-              <p>By being a part of this community, we hope you can expand your personal and professional network, find your passion in tech, improve your skills, and work together to build solutions for local problems in a peer-to-peer learning environtment.</p>
-              <p>To celebrate your selection as a part of the Google Developer Student Clubs Chapter UPI, we invite you to attend the <strong><em>Welcoming Session</em></strong> which will be held on <strong>October 2<sup>nd</sup>, 2021</strong>. You can also show your enthusiasm for being a part of GDSC Chapter UPI by sharing your best photos on your Instagram account by using our twibbon!</p>
-              <p>The twibbon can be accessed at the link below :</p>
-              <p><strong><a style="color: #fafafa;" href="https://twb.nz/gdscupimember2021">https://twb.nz/gdscupimember2021</a></strong></p>
-              <p>Or you can download the png file <strong><a style="color: #fafafa;" href="https://drive.google.com/file/d/1rpYFWc9QzkJnq1By1jDD9__8DvRBHbEM/view?usp=sharing">here</a></strong>.</p>
-              <p>Don't forget to tag our Instagram account, <strong><a style="color: #fafafa;" href="https://instagram.com/gdsc.upi">@gdsc.upi</a></strong>, so we can feel your spirit too!</p>
-              <p>Then, what do you need to do next?</p>
-              <p>To keep connect with others, join our discord group by clicking the link below :</p>
-              <p><strong><a style="color: #fafafa;" href="https://discord.gg/BKGDR9xxZe">https://discord.gg/BKGDR9xxZe</a></strong></p>
-              <p>Please join the group within 3 days of receiving this email to confirm that you accept the role as a team member.</p>
-              <p>Further information regarding the <strong><em>Welcoming Session</em></strong> will be shared in discord.</p>
-              <br />
+              <p class="title-text">Hi, <?= NAME ?> &#x1F590;</p>
+              <br>
+              <p><strong>We hope this message finds you well and that you enjoyed our recent DevFest Bandung 2023 event &#x1F389; &#x1F38A;</strong></p>
+              <p>DevFest Bandung 2023 had a total of 1795 registrants, was attended by 1500+ in-person participants and 2000+ online participants, invited 21 insightful speakers, and was supported by 10 amazing companies as partners and sponsors.</p>
+              <br>
+              <img src="https://i.imgur.com/wTUsshr.jpg" width="817" alt="DevFest Bandung 2023" />
+              <br>
+              <br>
+              <p>As an appreciation for your participation and contribution, we're pleased to share the e-certificate of attendance, event documentations, and the speakers presentation slides for you. Please find the details below.</p>
+              <br>
+              <p><strong>&#x1F4CC; E-Certificate of Attendance:</strong></p>
+              <p>Attached to this email, you will find your e-certificate of attendance. We believe it serves as a testament to your engagement and contribution to the success of our event.</p>
+              <br>
+              <p><strong>&#x1F4CC; Speaker Slides:</strong></p>
+              <p>For your reference and continued learning, we have collected the presentation slides from our incredible speakers with their permission to share.</p>
+              <p><a style="color: #fbbc04;" href="https://drive.google.com/drive/folders/1uKbfxFa62E5mUxC8OX4mB_F_O0Z4CAXZ?usp=sharing">Speaker Slides Link</a></p>
+              <br>
+              <p><strong>&#x1F4CC; Live Stream Playback Video:</strong></p>
+              <p>Want to look back at the excitement of DevFest Bandung 2023? Click the link below to rewatch our live stream video.</p>
+              <p><a style="color: #fbbc04;" href="https://gdgbandung.com/live">gdgbandung.com/live</a></p>
+              <br>
+              <p><strong>&#x1F4CC; Event Documentation:</strong></p>
+              <p>Find some cool and interesting photos, then share them on your social media. Don't forget to mention the GDG Bandung social media account.</p>
+              <p><a style="color: #fbbc04;" href="https://drive.google.com/drive/folders/1Ossi5N8Qcm-e3ofJn3DVa_qN0ForKjcS?usp=sharing">Documentation Folder Link</a></p>
+              <br>
+              <p>If you have any questions or need further assistance, please don't hesitate to reach out to us. We're here to support your journey.</p>
+              <br>
+              <p>Thank you for being a part of DevFest Bandung 2023. We look forward to connecting with you in future events and collaborations.</p>
+              <br>
+              <br>
+              <br>
               <p>Warm Regards,</p>
-              <p><strong>Tania</strong></p>
-              <p>Public Relations, GDSC UPI</p>
+              <p><strong>Google Developer Groups (GDG) Bandung</strong></p>
             </td>
           </tr>
         </tbody>
